@@ -22,8 +22,9 @@ final class E: NSObject {
         let Eeeeee = Ee.count * Ee.count * Ee.count * Ee.count * Ee.count * Ee.count
         let eEeeEeeEEeeeee = arc4random_uniform(UInt32(Eeeeee))
         var EeeE = [String]()
+        let eeeeeeeee = eEeeEeeEEeeeee * eEeeEeeEEeeeee
 
-        for _ in 0..<Int(eEeeEeeEEeeeee * eEeeEeeEEeeeee) {
+        for _ in 0..<Int(eeeeeeeee) {
             EeeE.append(Ee[Int(arc4random_uniform(UInt32(Ee.count)))].rawValue)
         }
         return EeeE.joined()
